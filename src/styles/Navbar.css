@@ -1,0 +1,22 @@
+/* Navbar stylings */
+
+div.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #d3dce7;
+}
+
+#root > div > div > a:nth-child(1) {
+  margin-left: auto;
+}
+
+div.navbar a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #000080;
+  margin: 5px;
+  border-radius: 20%;
+  line-height: 0.1;
+  font-size: 14px;
+}

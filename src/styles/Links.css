@@ -1,0 +1,44 @@
+/* Links */
+
+div.links {
+  display: flex;
+  background-color: #d3dce7;
+  padding-bottom: 30px;
+  color: #000080;
+}
+
+div.links div:first-child {
+  border-bottom: none !important;
+}
+
+div.links div {
+  margin: auto;
+  border-bottom: 2px solid #000080;
+}
+
+div.notout-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white !important;
+}
+
+div.notout-logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15%;
+}
+
+div.notout-logo h2 {
+  margin: 5px;
+  color: #000080;
+}
+
+div.links div .icon {
+  padding-right: 5px;
+  height: max-content;
+}
+
+div.links div span {
+  display: inline-block;
+}

@@ -1,0 +1,22 @@
+/* Footer */
+
+div.footer {
+  display: flex;
+}
+
+div.footer p {
+  flex: 1;
+  padding: 0 80px;
+}
+
+div.footer p:nth-child(1) {
+  text-align: left;
+}
+
+div.footer p:last-child {
+  text-align: right;
+}
+
+div.footer p .icon {
+  margin: 0 5px;
+}
