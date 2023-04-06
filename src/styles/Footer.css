@@ -1,6 +1,7 @@
 /* Footer */
 
 div.footer {
+  background-color: rgb(238, 248, 251);
   display: flex;
 }
 

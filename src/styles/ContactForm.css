@@ -1,3 +1,11 @@
+div.form {
+  background-color: #d3dce7;
+}
+
+div.form div.form-wrapper div {
+  margin: 15px 0;
+}
+
 div.form div.form-wrapper {
   max-width: 800px;
   margin: 0 auto;
@@ -5,4 +13,16 @@ div.form div.form-wrapper {
 
 div.form div label {
   display: block;
+}
+
+div.form div input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  outline: blue;
+  background: #e8f5f9;
+}
+
+div.form div input::-ms-input-placeholder {
+  color: gray;
 }
