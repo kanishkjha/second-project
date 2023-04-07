@@ -1,28 +1,109 @@
 div.form {
-  background-color: #d3dce7;
-}
-
-div.form div.form-wrapper div {
-  margin: 15px 0;
+  background: #d3dce7;
 }
 
 div.form div.form-wrapper {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding: 50px 0;
 }
 
-div.form div label {
-  display: block;
+div.form div.form-wrapper div {
+  margin-bottom: 10px;
 }
 
-div.form div input {
-  display: block;
-  width: 100%;
+label#birth-month {
+  display: block !important;
+}
+
+div.form div.form-wrapper input,
+div.form div.form-wrapper select {
+  color: black;
+  background-color: #d3d3d3;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   padding: 5px;
-  outline: blue;
-  background: #e8f5f9;
 }
 
-div.form div input::-ms-input-placeholder {
-  color: gray;
+/* Just for experiment */
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+select {
+  box-shadow: 1px 1px 4px 0 lightskyblue, -1px -1px 4px 0 lightskyblue;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+select:not(#birthYear):not(#month):not(#day) {
+  width: 100%;
+}
+
+div.form div.form-wrapper input:focus,
+div.form div.form-wrapper select:focus {
+  background-color: white;
+}
+
+div.form div.form-wrapper label {
+  /* display: block; */
+  font-size: 18px;
+  padding-bottom: 3px;
+}
+
+label:not(.account-policy-label) {
+  display: block;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: max-content;
+  display: inline-block;
+}
+
+#area-of-interest {
+  display: inline-block;
+  color: #808080;
+  margin: 0 3px;
+}
+
+button {
+  display: block;
+  border: none;
+  color: white;
+  background: #000080;
+  padding: 9px 25px;
+  font-size: 18px;
+  margin: 5px auto;
+  box-shadow: 1px 1px 4px 0 lightskyblue, -1px -1px 4px 0 lightskyblue;
+}
+
+div.form div.form-wrapper div span {
+  color: #000080;
+}
+
+.account-policy-heading {
+  background-color: #000080;
+  color: white;
+  padding: 3px;
+}
+
+div.account-policy-container {
+  padding: 18px;
+  background: #d3d3d3;
+  border-bottom-left-radius: 14%;
+  border-bottom-right-radius: 14%;
+  border: none;
+}
+
+input#public {
+  margin-left: 30px;
+}
+
+div.form div.form-wrapper div.flex {
+  display: flex;
+}
+
+div.form div.form-wrapper div.flex div:last-child {
+  padding-left: 30px;
+}
+
+select#day {
+  margin-left: 20px;
 }

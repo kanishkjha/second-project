@@ -1,0 +1,47 @@
+/* List item */
+
+div.list-item {
+  background-color: #d3dce7;
+  padding: 20px 100px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+div.list-item div {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+div.list-item h3 {
+  display: inline-block;
+  border-top: 8px solid #000080;
+  margin: 40px 0px;
+  padding-top: 5px;
+  font-size: 23px;
+}
+
+div.list-item h4 button {
+  display: inline-block !important;
+  border: none !important;
+  background: #000080;
+  color: white;
+  padding: 4px 3px !important;
+  font-size: 20px;
+  box-shadow: unset;
+}
+
+div.list-item h4 {
+  text-align: left;
+  margin: 0;
+  padding: 5px;
+  color: white;
+  background-color: #000080;
+}
+
+div.list-item p {
+  background-color: #000080;
+  margin: 0;
+  padding: 5px;
+  padding-left: 17px;
+  color: white;
+}

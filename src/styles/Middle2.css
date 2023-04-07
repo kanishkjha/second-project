@@ -1,0 +1,38 @@
+/* Middle2 */
+
+div.middle2 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000080;
+  background-color: #d3dce7;
+}
+
+div.middle2 div {
+  flex: 1;
+  text-align: left;
+  margin: 0 10px;
+}
+
+div.middle2 div img {
+  height: 450px;
+  max-width: 450px;
+  margin: 50px;
+  box-shadow: -20px 20px #000080, -20px -20px #000080;
+}
+
+div.middle2 div h2 {
+  display: inline-block;
+  border-top: 4px solid #ffb900;
+}
+
+div.middle2 div button {
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 5px;
+  background-color: #000080;
+  color: white;
+  font-size: 20px;
+}

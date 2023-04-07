@@ -1,0 +1,42 @@
+/* Middle5 */
+
+div.middle5 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000080;
+  background-color: white !important;
+  border-bottom: 70px solid #d3dce7;
+}
+
+div.middle5 div {
+  flex: 1;
+  text-align: left;
+}
+
+div.middle5 div img {
+  height: 450px;
+  max-width: 450px;
+  margin: 50px;
+  box-shadow: 20px 20px #000080, 20px -20px #000080;
+}
+
+div.middle5 div h2 {
+  display: inline-block;
+  border-top: 4px solid #ff3801;
+}
+
+div.middle5 div button {
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 5px;
+  background-color: #000080;
+  color: white;
+  font-size: 20px;
+}
+
+#root > div > div.middle5 > div:nth-child(1) {
+  padding-left: 40px;
+}

@@ -5,17 +5,33 @@ import Last from "./components/Last";
 import CreateAccount from "./components/CreateAccount";
 import Footer from "./components/Footer";
 import ContactForm from "./components/ContactForm";
+import HomePage from "./pages/HomePage";
+import CreateForm from "./pages/CreateForm";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from "react-router-dom/cjs/react-router-dom.min";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Links />
-      <CreateAccount />
-      <ContactForm />
-      <Last />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Links />
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route path="/createForm">
+            <CreateForm />
+          </Route>
+        </Switch>
+
+        <Last />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
