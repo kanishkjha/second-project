@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import ContactForm from "./components/ContactForm";
 import HomePage from "./pages/HomePage";
 import CreateForm from "./pages/CreateForm";
+import Submission from "./pages/Submission";
 import {
   BrowserRouter as Router,
   Route,
@@ -26,8 +27,10 @@ function App() {
           <Route path="/createForm">
             <CreateForm />
           </Route>
+          <Route path="/submissionForm">
+            <Submission />
+          </Route>
         </Switch>
-
         <Last />
         <Footer />
       </div>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/ContactForm.css";
 import { FaShieldAlt } from "react-icons/fa";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function ContactForm() {
   const currentYear = new Date().getFullYear();
@@ -272,7 +273,9 @@ export default function ContactForm() {
           <label htmlFor="terms"></label>
         </div>
 
-        <button className=".btn">Register Me</button>
+        <button className=".btn">
+          <Link to="/submissionForm">Register Me</Link>
+        </button>
       </div>
     </div>
   );

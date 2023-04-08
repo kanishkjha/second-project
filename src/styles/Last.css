@@ -71,3 +71,32 @@ div.last div.flex-container div div span {
   padding-left: 5px;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 900px) {
+  div.last div.flex-container {
+    flex-direction: column;
+  }
+
+  div.last div.flex-container h4,
+  ul {
+    margin: 12px 0;
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  div.last div.flex-container div div.logo h2 {
+    font-size: 21px;
+  }
+
+  div.last div.flex-container div div.logo {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  div.last div.flex-container div div.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+}

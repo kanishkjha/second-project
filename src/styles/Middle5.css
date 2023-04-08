@@ -40,3 +40,34 @@ div.middle5 div button {
 #root > div > div.middle5 > div:nth-child(1) {
   padding-left: 40px;
 }
+
+@media screen and (max-width: 900px) {
+  div.middle5 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+
+  div.middle5 div {
+    padding: 10px 10px !important;
+  }
+
+  div.middle5 div img {
+    width: 80%;
+    height: auto;
+    box-shadow: -5px 5px #000080, -5px -5px #000080;
+  }
+
+  div.middle5 div {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  div.middle5 div {
+    text-align: center !important;
+  }
+
+  div.middle5 div button {
+    margin: 3px auto;
+  }
+}

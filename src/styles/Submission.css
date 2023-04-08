@@ -1,0 +1,17 @@
+.submission .submission-wrapper {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #000080;
+}
+
+.submission .submission-wrapper div.border-bottom {
+  border-bottom: 3px solid #000080 !important;
+  padding: 0 40px;
+}
+
+.submission .submission-wrapper div .icons {
+  margin: 5px;
+}

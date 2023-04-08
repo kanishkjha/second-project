@@ -18,28 +18,28 @@ export default function Links() {
         <h2>NotOut60</h2>
       </div>
       <div>
-        <FaPeopleArrows className="icon" />
-        <span>Engagement search and interest</span>
+        <FaPeopleArrows className="icon flex-item" />
+        <span className="flex-item">Engagement search and interest</span>
       </div>
       <div>
-        <FaMoneyCheck className="icon" />
-        <span>Investments</span>
+        <FaMoneyCheck className="icon flex-item" />
+        <span className="flex-item">Investments</span>
       </div>
       <div>
-        <FaListAlt className="icon" />
-        <span>Insurance</span>
+        <FaListAlt className="icon flex-item" />
+        <span className="flex-item">Insurance</span>
       </div>
       <div>
-        <FaClipboardList className="icon" />
-        <span>Succession Planing</span>
+        <FaClipboardList className="icon flex-item" />
+        <span className="flex-item">Succession Planing</span>
       </div>
       <div>
-        <FaBloggerB className="icon" />
-        <span>Blog</span>
+        <FaBloggerB className="icon flex-item" />
+        <span className="flex-item">Blog</span>
       </div>
       <div>
-        <FaList className="icon" />
-        <span>Others</span>
+        <FaList className="icon flex-item" />
+        <span className="flex-item">Others</span>
       </div>
     </div>
   );

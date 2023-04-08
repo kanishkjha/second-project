@@ -36,3 +36,34 @@ div.middle2 div button {
   color: white;
   font-size: 20px;
 }
+
+@media screen and (max-width: 900px) {
+  div.middle2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+
+  div.middle2 div {
+    padding: 10px 10px !important;
+  }
+
+  div.middle2 div img {
+    width: 80%;
+    height: auto;
+    box-shadow: -5px 5px #000080, -5px -5px #000080;
+  }
+
+  div.middle2 div {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  div.middle2 div {
+    text-align: center !important;
+  }
+
+  div.middle2 div button {
+    margin: 3px auto;
+  }
+}

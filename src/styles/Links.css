@@ -42,3 +42,21 @@ div.links div .icon {
 div.links div span {
   display: inline-block;
 }
+
+@media screen and (max-width: 900px) {
+  div.links {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  div.links div {
+    display: flex;
+    height: 60px;
+    padding-bottom: 3px;
+    margin-left: 10%;
+  }
+
+  div.links div .flex-item {
+    align-self: flex-end;
+  }
+}

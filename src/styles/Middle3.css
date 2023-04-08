@@ -39,3 +39,34 @@ div.middle3 div button {
 #root > div > div.middle3 > div:nth-child(1) {
   padding-left: 40px;
 }
+
+@media screen and (max-width: 900px) {
+  div.middle3 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+
+  div.middle3 div {
+    padding: 10px 10px !important;
+  }
+
+  div.middle3 div img {
+    width: 80%;
+    height: auto;
+    box-shadow: -5px 5px #000080, -5px -5px #000080;
+  }
+
+  div.middle3 div {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  div.middle3 div {
+    text-align: center !important;
+  }
+
+  div.middle3 div button {
+    margin: 3px auto;
+  }
+}

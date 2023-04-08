@@ -12,7 +12,8 @@ export default function Footer() {
     <div className="footer">
       <p>Copyright &copy; 2023</p>
       <p>
-        Follow us: <FaInstagramSquare className="icon" size={16} />
+        <span>Follow us: </span>
+        <FaInstagramSquare className="icon" size={16} />
         <FaFacebookSquare className="icon" size={16} />
         <FaTwitterSquare className="icon" size={16} />
         <FaLinkedin className="icon" size={16} />

@@ -35,3 +35,34 @@ div.middle4 div button {
   color: white;
   font-size: 20px;
 }
+
+@media screen and (max-width: 900px) {
+  div.middle4 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+
+  div.middle4 div {
+    padding: 10px 10px !important;
+  }
+
+  div.middle4 div img {
+    width: 80%;
+    height: auto;
+    box-shadow: -5px 5px #000080, -5px -5px #000080;
+  }
+
+  div.middle4 div {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  div.middle4 div {
+    text-align: center !important;
+  }
+
+  div.middle4 div button {
+    margin: 3px auto;
+  }
+}
