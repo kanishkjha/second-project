@@ -1,7 +1,7 @@
 /* List item */
 
 div.list-item {
-  background-color: #d3dce7;
+  background-color: #f5f5f5;
   padding: 20px 100px;
   margin-top: 30px;
   text-align: left;
@@ -12,6 +12,7 @@ div.list-item div {
   padding: 0;
   border-bottom: none;
 }
+
 div.list-item h3 {
   display: inline-block;
   border-top: 8px solid #000080;
