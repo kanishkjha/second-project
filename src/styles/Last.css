@@ -3,11 +3,9 @@
 div.last {
   text-align: left;
   padding: 50px;
-  background: linear-gradient(
-    to bottom,
-    rgb(105, 105, 159),
-    rgb(238, 248, 251)
-  );
+  background: linear-gradient(to bottom,
+      rgb(105, 105, 159),
+      rgb(238, 248, 251));
   border-top: 15px solid #000080;
 }
 
@@ -49,7 +47,7 @@ div.last div.flex-container div h4 {
   color: white;
 }
 
-#root > div > div.last {
+#root>div>div.last {
   padding-bottom: 0;
 }
 
@@ -66,13 +64,14 @@ div.last div.flex-container div.grid {
 div.last div.flex-container div .icon {
   justify-content: center;
 }
+
 div.last div.flex-container div div span {
   display: block;
   padding-left: 5px;
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   div.last div.flex-container {
     flex-direction: column;
   }

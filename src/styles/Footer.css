@@ -22,7 +22,7 @@ div.footer p .icon {
   margin: 0 5px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   div.footer {
     flex-direction: column;
     justify-content: center;

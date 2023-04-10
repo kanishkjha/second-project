@@ -43,7 +43,7 @@ div.links div span {
   display: inline-block;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   div.links {
     flex-direction: column;
     padding-top: 20px;

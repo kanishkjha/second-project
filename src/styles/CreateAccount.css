@@ -16,9 +16,7 @@ div.create-account div p {
   line-height: 0;
 }
 
-div.create-account div.first {
-  flex: 1 !important;
-}
+div.create-account div.first {}
 
 div.create-account div.second img {
   max-width: 300px;
@@ -28,7 +26,7 @@ div.create-account div.second img {
   padding-right: 30px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   div.create-account {
     flex-direction: column;
     align-items: center;
@@ -41,5 +39,23 @@ div.create-account div.second img {
     display: block;
     margin: 10px auto;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.create-account div.second img {
+    padding: 3px;
+    margin: auto;
+    width: 80%;
+  }
+
+  div.create-account div.first {
+    width: 80%;
+    padding: 5px;
+    height: auto;
+  }
+
+  div.create-account div.first h3 {
+    font-size: 16px;
   }
 }

@@ -36,7 +36,7 @@ div.middle div img {
     7px 2px 3px 0px rgb(72, 240, 255), -7px -2px 3px 0px rgb(72, 240, 255);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   div.middle {
     display: flex;
     flex-direction: column;

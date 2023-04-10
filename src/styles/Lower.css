@@ -31,7 +31,7 @@ div.lower .box4 {
   grid-column: 2 / span 1;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   div.lower {
     display: grid;
     grid-template-columns: 1fr;
@@ -47,4 +47,6 @@ div.lower .box4 {
     grid-row: unset;
     grid-column: unset;
   }
+
+  @media screen and (max-width: 400px) {}
 }

@@ -41,7 +41,7 @@ div.middle5 div button {
   padding-left: 40px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   div.middle5 {
     display: flex;
     flex-direction: column;
