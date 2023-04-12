@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/Group 1.png";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import {
   FaPeopleArrows,
   FaMoneyCheck,
@@ -19,27 +20,39 @@ export default function Links() {
       </div>
       <div>
         <FaPeopleArrows className="icon flex-item" />
-        <span className="flex-item">Engagement search and interest</span>
+        <Link to="/" className="flex-item">
+          Engagement search and interest
+        </Link>
       </div>
       <div>
         <FaMoneyCheck className="icon flex-item" />
-        <span className="flex-item">Investments</span>
+        <Link to="/" className="flex-item">
+          Investments
+        </Link>
       </div>
       <div>
         <FaListAlt className="icon flex-item" />
-        <span className="flex-item">Insurance</span>
+        <Link to="/insurance" className="flex-item">
+          Insurance
+        </Link>
       </div>
       <div>
         <FaClipboardList className="icon flex-item" />
-        <span className="flex-item">Succession Planing</span>
+        <Link to="/jobs" className="flex-item">
+          Succession Planing
+        </Link>
       </div>
       <div>
         <FaBloggerB className="icon flex-item" />
-        <span className="flex-item">Blog</span>
+        <Link to="/blog" className="flex-item">
+          Blog
+        </Link>
       </div>
       <div>
         <FaList className="icon flex-item" />
-        <span className="flex-item">Others</span>
+        <Link to="" className="flex-item">
+          Others
+        </Link>
       </div>
     </div>
   );

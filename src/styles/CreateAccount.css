@@ -16,7 +16,8 @@ div.create-account div p {
   line-height: 0;
 }
 
-div.create-account div.first {}
+div.create-account div.first {
+}
 
 div.create-account div.second img {
   max-width: 300px;
@@ -57,5 +58,9 @@ div.create-account div.second img {
 
   div.create-account div.first h3 {
     font-size: 16px;
+  }
+
+  div.create-account div.first p {
+    font-size: 11px;
   }
 }

@@ -1,0 +1,82 @@
+div.blog {
+  width: 100%;
+  padding: 10px 0;
+}
+
+div.blog div.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+div.blog div.flex-container div.flex-child {
+  width: 80%;
+  margin: 5px auto;
+  display: flex;
+  padding: 10px 30px;
+}
+
+div.blog div.flex-container div.flex-child div.image-container {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.blog div.flex-container div.flex-child div.text-container {
+  flex: 3;
+}
+
+div.blog div.flex-container div.flex-child:nth-child(2),
+div.blog div.flex-container div.flex-child:nth-child(4),
+div.blog div.flex-container div.flex-child:nth-child(6) {
+  flex-direction: row-reverse;
+}
+
+div.blog > div.flex-container > div.flex-child > div > img {
+  max-width: 250px;
+}
+
+div.blog h3 {
+  color: #000080;
+}
+
+div.blog h1 {
+  color: #000080;
+  text-align: center;
+}
+
+div.blog a {
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(72, 240, 255);
+}
+
+div.blog img.blog-logo {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+}
+
+@media screen and (max-width: 950px) {
+  div.blog img.blog-logo {
+    display: none;
+  }
+
+  div.blog div.flex-container div.flex-child {
+    flex-direction: column;
+  }
+
+  div.blog div.flex-container div.flex-child:nth-child(2),
+  div.blog div.flex-container div.flex-child:nth-child(4),
+  div.blog div.flex-container div.flex-child:nth-child(6) {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.blog div.flex-container div.flex-child img {
+    width: 200px;
+  }
+}

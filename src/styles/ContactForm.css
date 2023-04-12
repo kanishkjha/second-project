@@ -31,8 +31,9 @@ select {
   box-shadow: 1px 1px 4px 0 lightskyblue, -1px -1px 4px 0 lightskyblue;
 }
 
-input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
-select:not(#birthYear):not(#month):not(#day) {
+div.form-wrapper
+  input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+div.form-wrapper select:not(#birthYear):not(#month):not(#day) {
   width: 100%;
 }
 
@@ -138,7 +139,7 @@ input[type="file"]::-webkit-file-upload-button {
     align-items: center;
   }
 
-  input[type='file'] {
+  input[type="file"] {
     width: 200px;
   }
 }

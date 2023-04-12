@@ -1,0 +1,193 @@
+.job .horn {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.horn div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: #000080;
+}
+
+div.job div.search select {
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 30px;
+  width: 20%;
+}
+
+div.job div.search {
+  margin: 10px 0;
+}
+div.job div.search form button {
+  display: inline-block;
+  border: none;
+  color: white;
+  background: #000080;
+  padding: 9px 25px;
+  font-size: 18px;
+  margin-left: 10px;
+  box-shadow: 1px 1px 4px 0 lightskyblue, -1px -1px 4px 0 lightskybl;
+}
+
+div.job div.upper {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+div.job div.upper p {
+  margin-left: auto;
+  color: #000080;
+}
+
+div.job div.upper p span {
+  font-weight: bold;
+}
+
+div.job div.upper h3 {
+  display: inline-block;
+  padding: 5px;
+  background-color: #f5f5f5;
+  color: #000080;
+  border-top-right-radius: 8px;
+}
+
+div.job div.upper h3.active {
+  display: inline-block;
+  padding: 6px;
+  font-size: 21px;
+  background-color: #000080;
+  color: #fff;
+  border-top-right-radius: 8px;
+}
+
+/* Most important css */
+
+div.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.filter-bar {
+  padding: 30px;
+  margin-top: 30px;
+  align-self: flex-start;
+  text-align: center;
+  flex: 2;
+}
+
+div.job-posting {
+  flex: 5;
+}
+
+/* Inside the filter-bar */
+
+div.filter-bar h2 {
+  padding: 10px;
+}
+
+div.filter-bar h2,
+div.filter-bar p,
+div.filter-bar button,
+div.filter-bar div {
+  background-color: #000080;
+  color: #ffffff;
+}
+
+div.filter-bar,
+div.filter-bar h2,
+div.fitler-bar p,
+div.filter-bar div p {
+  margin: 3px;
+}
+
+div.filter-bar div {
+  display: flex;
+  margin: 2px 0;
+  padding: 15px 10px;
+  /* justify-content: space-between; */
+}
+
+div.filter-bar div button {
+  display: block;
+  border: none;
+  font-size: 20px;
+}
+
+div.filter-bar div button.first {
+  margin-left: auto;
+}
+
+div.filter-bar div.label-wrapper {
+  text-align: left;
+  display: block;
+  background-color: #fff;
+  color: #000080;
+  height: 150px;
+  overflow: scroll;
+  border: 2px solid #000080;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1000px) {
+  div.horn div.image-container {
+    display: none;
+  }
+
+  div.horn div:first-child {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  div.search form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  div.search form select,
+  div.search form button {
+    display: block;
+    margin: 5px auto;
+  }
+
+  div.search form button {
+    padding-top: 30px;
+    margin: 5px auto !important;
+  }
+
+  div.search select {
+    display: block;
+    width: 100%;
+  }
+
+  div.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.filter-bar {
+    align-self: center;
+    width: 60%;
+  }
+
+  div.job div.filter-bar div.job-posting {
+    flex: unset;
+    width: 100%;
+  }
+}

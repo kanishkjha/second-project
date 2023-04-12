@@ -1,6 +1,4 @@
 import React from "react";
-import Links from "../components/Links";
-import Navbar from "../components/Navbar";
 import Middle1 from "../components/Middle1";
 import Middle2 from "../components/Middle2";
 import Middle3 from "../components/Middle3";

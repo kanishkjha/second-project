@@ -67,3 +67,20 @@ div.middle2 div button {
     margin: 3px auto;
   }
 }
+
+@media screen and (max-width: 600px) {
+  div.middle div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  div.middle2 div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.middle2 div img {
+    margin: 0;
+  }
+}

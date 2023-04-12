@@ -33,7 +33,7 @@ div.middle div img {
   margin-right: 30px;
   border-radius: 20% 0 20% 0;
   box-shadow: 5px 0px 3px 0px #000080, -5px 0px 3px 0px #000080,
-    7px 2px 3px 0px rgb(72, 240, 255), -7px -2px 3px 0px rgb(72, 240, 255);
+    7px 2px 3px 0px #48f0ff, -7px -2px 3px 0px rgb(72, 240, 255);
 }
 
 @media screen and (max-width: 950px) {
@@ -58,8 +58,14 @@ div.middle div img {
   }
 }
 
-/* @media screen and (max-width: 280px) {
-  div.middle div img {
-    width: 100px;
+@media screen and (max-width: 600px) {
+  div.middle div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-} */
+
+  div.middle div img {
+    margin: 0;
+  }
+}

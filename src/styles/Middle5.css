@@ -37,7 +37,7 @@ div.middle5 div button {
   font-size: 20px;
 }
 
-#root>div>div.middle5>div:nth-child(1) {
+#root > div > div.middle5 > div:nth-child(1) {
   padding-left: 40px;
 }
 
@@ -69,5 +69,17 @@ div.middle5 div button {
 
   div.middle5 div button {
     margin: 3px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.middle5 div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.middle5 div img {
+    margin: 0;
   }
 }

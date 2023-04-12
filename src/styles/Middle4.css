@@ -66,3 +66,20 @@ div.middle4 div button {
     margin: 3px auto;
   }
 }
+
+@media screen and (max-width: 600px) {
+  div.middle4 div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  div.middle4 div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.middle4 div img {
+    margin: 0;
+  }
+}
