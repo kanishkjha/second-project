@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Blog.css";
 import blogLogo from "../assets/blog-landscape.avif";
+import MySlider from "../components/MySlider";
 import img1 from "../assets/blog-grid-1.webp";
 import img2 from "../assets/blog-grid-2.jpeg";
 import img3 from "../assets/blog-grid-3.jpeg";
@@ -15,6 +16,7 @@ export default function Blog() {
     <div className="blog">
       <img src={blogLogo} alt="blog-logo" className="blog-logo" />
       <h1>Recent Posts</h1>
+      <MySlider />
       <div className="flex-container">
         <div className="flex-child">
           <div className="image-container">

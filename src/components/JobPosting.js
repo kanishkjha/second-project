@@ -6,7 +6,7 @@ import img3 from "../assets/Boeing_full_logo.svg.png";
 
 export default function JobPosting() {
   return (
-    <div>
+    <div className="job-postings-container">
       <div className="job-posting-box">
         <div>
           <h3>Data Center Infrastructure Consultant</h3>

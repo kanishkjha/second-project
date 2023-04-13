@@ -8,6 +8,8 @@ import CreateForm from "./pages/CreateForm";
 import Submission from "./pages/Submission";
 import Blog from "./pages/Blog";
 import Insurance from "./pages/Insurance";
+import SignupModalStateProvider from "./contexts/SignupModalState";
+import SignupModal from "./components/SignupModal";
 import Job from "./pages/Job";
 import {
   BrowserRouter as Router,
@@ -19,7 +21,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <SignupModalStateProvider>
+          <SignupModal />
+          <Navbar />
+        </SignupModalStateProvider>
         <Links />
         <Switch>
           <Route exact path="/">

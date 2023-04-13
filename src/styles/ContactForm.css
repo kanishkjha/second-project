@@ -26,7 +26,7 @@ div.form div.form-wrapper select {
 
 /* Just for experiment */
 
-input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+div.form input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
 select {
   box-shadow: 1px 1px 4px 0 lightskyblue, -1px -1px 4px 0 lightskyblue;
 }

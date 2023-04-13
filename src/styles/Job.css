@@ -158,20 +158,23 @@ div.filter-bar div.label-wrapper {
     text-align: center;
   }
 
-  div.search form select,
+  /* div.search form select,
   div.search form button {
     display: block;
     margin: 5px auto;
-  }
+  } */
 
-  div.search form button {
-    padding-top: 30px;
-    margin: 5px auto !important;
-  }
-
-  div.search select {
+  div.job div.search form button {
     display: block;
-    width: 100%;
+    padding: 8px;
+    margin: 5px auto;
+  }
+
+  div.job div.search select {
+    /* align-self: center; */
+    display: block;
+    width: 80%;
+    margin: 10px auto;
   }
 
   div.filter {
@@ -179,15 +182,35 @@ div.filter-bar div.label-wrapper {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* font-size: 10px;s */
   }
 
   div.filter-bar {
     align-self: center;
-    width: 60%;
+    width: 80%;
+    padding: 3px;
+    font-size: 13px;
+  }
+
+  div.filter-bar h2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   div.job div.filter-bar div.job-posting {
     flex: unset;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.job-posting div.upper h3.active,
+  div.job-posting div.upper h3 {
+    display: none;
+  }
+
+  div.upper p {
+    margin-left: 2px;
+    margin-right: auto;
   }
 }
